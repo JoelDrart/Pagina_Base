@@ -11,7 +11,7 @@
 </head>
 <body>
    <center>
-        <h1> Vista de datos</h1>
+        <h1> Datos del usuario</h1>
 
         <table class="table table-hover">
             <thead class="table-dark">
@@ -19,10 +19,13 @@
                 <td>ID</td>
                 <td>Nombre</td>
                 <td>Apellido</td>
+                <td>Eliminar</td>
+                <td>Editar</td>
                 </tr>
             </thead>
+            
             <?php
-                include('../Model/MConsultarTodo.php');
+                include('../Model/MMostrarEliminar.php');
             ?>
         </table>
         <br>

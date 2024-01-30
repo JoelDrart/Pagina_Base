@@ -10,12 +10,15 @@
 <body>
     <h1>Datos del Usuario</h1>
     <table class="table table-hover">
-        <tr>
-        <td>ID</td>
-        <td>NOMBRE</td>
-        <td>APELLIDO</td>
-        <td>CLAVE</td>
-        </tr>
+        <thead class="table-dark">
+                <tr>
+                <td>ID</td>
+                <td>Nombre</td>
+                <td>Apellido</td>
+                <td>Clave</td>
+                
+                </tr>
+            </thead>
    
 
         <br>

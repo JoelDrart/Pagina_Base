@@ -13,7 +13,7 @@
         include('../View/VBuscar.php');
 
     }else if($v1 == 4){
-        include('../View/VEliminar.php');
+        include('../View/VMostrarEliminar.php');
     }else{
         "ninguna opcion seleccionada";
     }
