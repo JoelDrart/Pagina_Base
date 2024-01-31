@@ -26,7 +26,7 @@
         <input type="submit" value="Guardar datos" name="ingresar" >
     </form>
     <br>
-    <a href="../Index.html">Volver al Inicio</a>
+    <br><a href="../Controller/Ccontroller.php?var1=4">Volver</a>
     </center>
 <?php
     

@@ -9,10 +9,10 @@
 
     if(!$ejecutar){
         echo 'Error al editar los datos';
-        echo '<br><a href="../Index.html">Volver al Inicio</a>';
+        echo '<br><a href="../Controller/Ccontroller.php?var1=4">Volver</a>';
     }else{
         echo 'Datos Editados correctamente';
-        echo '<br><a href="../Index.html">Volver al Inicio</a>';
+        echo '<br><a href="../Controller/Ccontroller.php?var1=4">Volver</a>';
 
     }
 ?>

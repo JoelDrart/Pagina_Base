@@ -14,6 +14,8 @@
 
     }else if($v1 == 4){
         include('../View/VMostrarEliminar.php');
+    }else if($v1 == 5){
+        include('../model/MReporte.php'); 
     }else{
         "ninguna opcion seleccionada";
     }
